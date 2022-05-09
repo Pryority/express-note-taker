@@ -1,5 +1,5 @@
-{
-  "notes": [
+[
+ 
     {
       "title": "Test Title",
       "text": "Test text"
@@ -14,5 +14,4 @@
       "text": "Description text of this note.",
       "id": "2"
     }
-  ]
-}
+]

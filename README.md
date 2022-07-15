@@ -54,10 +54,10 @@ The user can also the deployed application via the Heroku link provided above.
 The following images show the web application's appearance and functionality:
 
 Existing notes are listed in the left-hand column with empty fields on the right-hand side for the new note’s title and text.
-![Demo-Image-1](https://courses.bootcampspot.com/courses/1181/files/1692634/preview)
+![Demo-Image-1](demo-01.png)
 
 Note titled “Balance accounts” reads, “Balance account books by end of day Monday,” with other notes listed on the left.
-![Demo-Image-2](https://courses.bootcampspot.com/courses/1181/files/1692636/preview)
+![Demo-Image-2](demo-02.png)
 
 ## Contribution
 

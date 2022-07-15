@@ -7,7 +7,7 @@
 Note Taker is a web application that can be used to write and save notes. It uses an Express.js back end, and saves and retrieves note data from a JSON database file.
 
 This application can either be deployed locally by running a localhost server on your machine, or can be accessed through the following link:
-https://obscure-river-42725.herokuapp.com/
+https://sleepy-taiga-62249.herokuapp.com/
 
 ## Table of Contents
 
@@ -54,10 +54,10 @@ The user can also the deployed application via the Heroku link provided above.
 The following images show the web application's appearance and functionality:
 
 Existing notes are listed in the left-hand column with empty fields on the right-hand side for the new note’s title and text.
-![11-express-homework-demo-01](https://courses.bootcampspot.com/courses/1181/files/1692634/preview)
+![Demo-Image-1](https://courses.bootcampspot.com/courses/1181/files/1692634/preview)
 
 Note titled “Balance accounts” reads, “Balance account books by end of day Monday,” with other notes listed on the left.
-![11-express-homework-demo-02](https://courses.bootcampspot.com/courses/1181/files/1692636/preview)
+![Demo-Image-2](https://courses.bootcampspot.com/courses/1181/files/1692636/preview)
 
 ## Contribution
 

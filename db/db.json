@@ -1,17 +1,3 @@
-[
- 
-    {
-      "title": "Test Title",
-      "text": "Test text"
-    },
-    {
-      "title": "Test Title 2",
-      "text": "Test text 2",
-      "id": "1"
-    },
-    {
-      "title": "NOTE #2",
-      "text": "Description text of this note.",
-      "id": "2"
-    }
-]
+{
+  "note": []
+}

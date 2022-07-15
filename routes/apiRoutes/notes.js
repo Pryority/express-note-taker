@@ -23,6 +23,19 @@ router.post('/notes', (req, res) => {
     const note = createNewNote(req.body, notes);
 
     res.json(note);
+
+    let newNote = req.body;
+    let noteList = JSON.parse(fs.readFileSync("./db/db.json", "utf8"));
+    let notelength = (noteList.length).toString();
+
+    //create new property called id based on length and assign it to each json object
+    newNote.id = notelength;
+    //push updated note to the data containing notes history in db.json
+    noteList.push(newNote);
+
+    //write the updated data to db.json
+    fs.writeFileSync("./db/db.json", JSON.stringify(noteList));
+    res.json(noteList);
 });
 
 // router.post("/notes", (req, res) => {

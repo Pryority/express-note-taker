@@ -4,12 +4,14 @@ const express = require('express');
 const { notes } = require('./db/db.json');
 const apiRoutes = require('./routes/apiRoutes/notes.js');
 const htmlRoutes = require('./routes/htmlRoutes/index.js');
-const PORT = process.env.PORT || 3001;
+
 const app = express();
+const PORT = process.env.PORT || 3001;
 
 app.use(express.static('public'));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+
 app.use('/api', apiRoutes);
 app.use('/', htmlRoutes);
 
